@@ -1,0 +1,259 @@
+Line No. 1 : Token <STRING> Lexeme "fkjsk" found
+
+Line No. 1 : Token <STRING> Lexeme "admnvkaj" found
+
+Line No. 2 : Token <STRING> Lexeme "fdajljf\\fajklj" found
+
+Line No. 5 : Token <STRING> Lexeme "falfjal		dfajfl" found
+
+Line No. 8 : Token <INT> Lexeme int found
+
+Line No. 8 : Token <ID> Lexeme main found
+
+
+ScopeTable # 1
+71 --> < main : ID >	
+
+
+Line No. 8 : Token <LPAREN> Lexeme ( found
+
+Line No. 8 : Token <RPAREN> Lexeme ) found
+
+Line No. 8 : Token <LCURL> Lexeme { found
+
+Line No. 9 : Token <INT> Lexeme int found
+
+Line No. 9 : Token <ID> Lexeme a found
+
+
+ScopeTable # 1
+71 --> < main : ID >	
+97 --> < a : ID >	
+
+
+Line No. 9 : Token <COMMA> Lexeme , found
+
+Line No. 9 : Token <ID> Lexeme b found
+
+
+ScopeTable # 1
+71 --> < main : ID >	
+97 --> < a : ID >	
+98 --> < b : ID >	
+
+
+Line No. 9 : Token <SEMICOLON> Lexeme ; found
+
+Line No. 10 : Token <FLOAT> Lexeme float found
+
+Line No. 10 : Token <ID> Lexeme d found
+
+
+ScopeTable # 1
+0 --> < d : ID >	
+71 --> < main : ID >	
+97 --> < a : ID >	
+98 --> < b : ID >	
+
+
+Line No. 10 : Token <COMMA> Lexeme , found
+
+Line No. 10 : Token <ID> Lexeme e found
+
+
+ScopeTable # 1
+0 --> < d : ID >	
+1 --> < e : ID >	
+71 --> < main : ID >	
+97 --> < a : ID >	
+98 --> < b : ID >	
+
+
+Line No. 10 : Token <SEMICOLON> Lexeme ; found
+
+Line No. 11 : Token <ID> Lexeme d found
+
+Line No. 11 : Token <ASSIGNOP> Lexeme = found
+
+Line No. 11 : Token <CONST_FLOAT> Lexeme 1.23E12 found
+
+
+ScopeTable # 1
+0 --> < d : ID >	
+1 --> < e : ID >	
+55 --> < 1.23E12 : CONST_FLOAT >	
+71 --> < main : ID >	
+97 --> < a : ID >	
+98 --> < b : ID >	
+
+
+Line No. 11 : Token <SEMICOLON> Lexeme ; found
+
+Line No. 12 : Token <ID> Lexeme e found
+
+Line No. 12 : Token <ASSIGNOP> Lexeme = found
+
+Line No. 12 : Token <CONST_FLOAT> Lexeme .2E-7 found
+
+
+ScopeTable # 1
+0 --> < d : ID >	
+1 --> < e : ID >	
+55 --> < 1.23E12 : CONST_FLOAT >	
+71 --> < main : ID >	
+80 --> < .2E-7 : CONST_FLOAT >	
+97 --> < a : ID >	
+98 --> < b : ID >	
+
+
+Line No. 12 : Token <SEMICOLON> Lexeme ; found
+
+Line No. 13 : Token <ID> Lexeme a found
+
+Line No. 13 : Token <ASSIGNOP> Lexeme = found
+
+Line No. 13 : Token <ID> Lexeme a found
+
+Line No. 13 : Token <ADDOP> Lexeme + found
+
+Line No. 13 : Token <CONST_INT> Lexeme 1 found
+
+
+ScopeTable # 1
+0 --> < d : ID >	
+1 --> < e : ID >	
+49 --> < 1 : CONST_INT >	
+55 --> < 1.23E12 : CONST_FLOAT >	
+71 --> < main : ID >	
+80 --> < .2E-7 : CONST_FLOAT >	
+97 --> < a : ID >	
+98 --> < b : ID >	
+
+
+Line No. 13 : Token <SEMICOLON> Lexeme ; found
+
+Line No. 14 : Token <CHAR> Lexeme char found
+
+Line No. 14 : Token <ID> Lexeme ch found
+
+
+ScopeTable # 1
+0 --> < d : ID >	
+1 --> < e : ID >	
+49 --> < 1 : CONST_INT >	
+55 --> < 1.23E12 : CONST_FLOAT >	
+68 --> < ch : ID >	
+71 --> < main : ID >	
+80 --> < .2E-7 : CONST_FLOAT >	
+97 --> < a : ID >	
+98 --> < b : ID >	
+
+
+Line No. 14 : Token <ASSIGNOP> Lexeme = found
+
+Line No. 14 : Token <CONST_CHAR> Lexeme 'a' found
+
+
+ScopeTable # 1
+0 --> < d : ID >	
+1 --> < e : ID >	
+6 --> < 'a' : CONST_CHAR >	
+49 --> < 1 : CONST_INT >	
+55 --> < 1.23E12 : CONST_FLOAT >	
+68 --> < ch : ID >	
+71 --> < main : ID >	
+80 --> < .2E-7 : CONST_FLOAT >	
+97 --> < a : ID >	
+98 --> < b : ID >	
+
+
+Line No. 14 : Token <SEMICOLON> Lexeme ; found
+
+Line No. 15 : Token <ID> Lexeme ch found
+
+Line No. 15 : Token <ASSIGNOP> Lexeme = found
+
+Line No. 15 : Token <CONST_CHAR> Lexeme '\t' found
+
+
+ScopeTable # 1
+0 --> < d : ID >	
+1 --> < e : ID >	
+6 --> < 'a' : CONST_CHAR >	
+49 --> < 1 : CONST_INT >	
+53 --> < '\t' : CONST_CHAR >	
+55 --> < 1.23E12 : CONST_FLOAT >	
+68 --> < ch : ID >	
+71 --> < main : ID >	
+80 --> < .2E-7 : CONST_FLOAT >	
+97 --> < a : ID >	
+98 --> < b : ID >	
+
+
+Line No. 15 : Token <SEMICOLON> Lexeme ; found
+
+Line No. 16 : Token <CHAR> Lexeme char found
+
+Line No. 16 : Token <ID> Lexeme c found
+
+
+ScopeTable # 1
+0 --> < d : ID >	
+1 --> < e : ID >	
+6 --> < 'a' : CONST_CHAR >	
+49 --> < 1 : CONST_INT >	
+53 --> < '\t' : CONST_CHAR >	
+55 --> < 1.23E12 : CONST_FLOAT >	
+68 --> < ch : ID >	
+71 --> < main : ID >	
+80 --> < .2E-7 : CONST_FLOAT >	
+97 --> < a : ID >	
+98 --> < b : ID >	
+99 --> < c : ID >	
+
+
+Line No. 16 : Token <LTHIRD> Lexeme [ found
+
+Line No. 16 : Token <RTHIRD> Lexeme ] found
+
+Line No. 16 : Token <ASSIGNOP> Lexeme = found
+
+Line No. 16 : Token <STRING> Lexeme "ab\"d" found
+
+Line No. 16 : Token <SEMICOLON> Lexeme ; found
+
+Line No. 17 : Token <ID> Lexeme printf found
+
+
+ScopeTable # 1
+0 --> < d : ID >	
+1 --> < e : ID >	
+6 --> < 'a' : CONST_CHAR >	
+49 --> < 1 : CONST_INT >	
+51 --> < printf : ID >	
+53 --> < '\t' : CONST_CHAR >	
+55 --> < 1.23E12 : CONST_FLOAT >	
+68 --> < ch : ID >	
+71 --> < main : ID >	
+80 --> < .2E-7 : CONST_FLOAT >	
+97 --> < a : ID >	
+98 --> < b : ID >	
+99 --> < c : ID >	
+
+
+Line No. 17 : Token <LPAREN> Lexeme ( found
+
+Line No. 17 : Token <STRING> Lexeme "abcd	a	efghi" found
+
+Line No. 18 : Token <RPAREN> Lexeme ) found
+
+Line No. 18 : Token <SEMICOLON> Lexeme ; found
+
+Line No. 19 : Token <COMMENT> Lexeme  a comment found
+
+Error at line No. 26 : Unfinished comment * another*** comment		return 0;} found
+
+Total line(s) 26
+
+Totla error(s) 1
+

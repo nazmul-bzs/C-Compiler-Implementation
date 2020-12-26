@@ -1,0 +1,26 @@
+"fkjsk"	"admnvkaj"
+"fdajljf\\\
+fajklj"
+
+"falfjal\
+		dfajfl"
+
+int main(){
+	int a,b;
+	float d, e;
+	d = 1.23E12;
+	e = .2E-7;
+	a=a+1;
+	char ch='a';
+	ch='\t';
+	char c[]="ab\"d";
+	printf("abcd	a\
+	efghi");
+// a comment
+/** another
+*** comment	
+	return 0;
+
+
+
+}
